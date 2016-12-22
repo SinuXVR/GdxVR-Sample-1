@@ -13,11 +13,11 @@ import com.badlogic.gdx.graphics.g3d.ModelInstance;
  * Оригинальная игра: Mosquito Invasion VR
  * Ссылка на GooglePlay: https://play.google.com/store/apps/details?id=com.sinux.mosquitoinvasion
  *
- * ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ * ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
  * ★ Если Вы хотите поддержать автора, то можете сделать это через:   ★
  * ★ Яндекс.Деньги: https://money.yandex.ru/to/410014808100617        ★
  * ★ Paypal: https://www.paypal.me/sinuxvr                            ★
- * ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
+ * ★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★★
  *
  */
 
