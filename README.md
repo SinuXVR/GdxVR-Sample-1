@@ -3,5 +3,9 @@
 Simple Libgdx-based VR app<br />
 Author: SinuXVR (sinuxvr@gmail.com)<br />
 License: Apache v2.0<br />
-Original game: Mosquito Invasion VR (https://play.google.com/store/apps/details?id=com.sinux.mosquitoinvasion)<br /><br />
-If you want to support me:<br />[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sinuxvr)
+Original game: [Mosquito Invasion VR](https://play.google.com/store/apps/details?id=com.sinux.mosquitoinvasion)
+***
+|If you want to support me|
+|:-----------------------:|
+|[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/sinuxvr)|
+
