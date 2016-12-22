@@ -9,7 +9,7 @@ import com.badlogic.gdx.math.Vector3;
 /** Класс VR камеры
  * Данные об ориентации берутся из VRSensorManager при вызове update() */
 
-public class VRCamera {
+class VRCamera {
     private PerspectiveCamera leftCam;   // Левая камера
     private PerspectiveCamera rightCam;  // Правая камера
     private Vector3 position;            // Позиция VR камеры
@@ -19,7 +19,7 @@ public class VRCamera {
     private Vector3 upDirCross;          // Векторное произведение up и direction (понадобится в части 2, сейчас не трогаем)
 
     /** Конструктор */
-    public VRCamera(float fov, float parallax, float near, float far) {
+    VRCamera(float fov, float parallax, float near, float far) {
         this.parallax = parallax;
         leftCam = new PerspectiveCamera(fov, Gdx.graphics.getWidth() / 2, Gdx.graphics.getHeight());
         leftCam.near = near;
@@ -36,7 +36,7 @@ public class VRCamera {
     }
 
     /** Обновление ориентации камеры */
-    public void update() {
+    void update() {
         Quaternion headQuaternion = GdxVR.vrSensorManager.getHeadQuaternion();
 
         // Из-за обхода стандартного механизма вращения камеры необходимо вручную
@@ -73,23 +73,23 @@ public class VRCamera {
     }
 
     /** Изменение местоположения камеры */
-    public void setPosition(float x, float y, float z) {
+    void setPosition(float x, float y, float z) {
         position.set(x, y, z);
     }
 
     /** Возврат левой камеры */
-    public PerspectiveCamera getLeftCam() {
+    PerspectiveCamera getLeftCam() {
         return leftCam;
     }
 
     /** Возврат правой камеры */
-    public PerspectiveCamera getRightCam() {
+    PerspectiveCamera getRightCam() {
         return rightCam;
     }
 
     /** Возврат позиции, направления и вектора UP камеры, а так же их векторного произведения*/
-    public Vector3 getPosition() { return position; }
-    public Vector3 getDirection() { return direction; }
-    public Vector3 getUp() { return up; }
-    public Vector3 getUpDirCross() { return upDirCross; }
+    Vector3 getPosition() { return position; }
+    Vector3 getDirection() { return direction; }
+    Vector3 getUp() { return up; }
+    Vector3 getUpDirCross() { return upDirCross; }
 }
